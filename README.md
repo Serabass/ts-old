@@ -18,7 +18,7 @@ Proxy, Observable, Reflect и им подобные.
 3. Conditional Types
 4. Proxy
 5. [Promise и магия `async`/`await`](./5.%20Promise)
-6. Reflect
+6. [Reflect](./6.%20Reflect)
 7. [@декораторы](./7.%20Decorators)
 8. Стрелочные функции
 9. Хранилища тайпингов (DefinitelyTyped, @types, etc)
