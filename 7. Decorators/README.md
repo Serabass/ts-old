@@ -75,6 +75,22 @@ new X().myAwesomeMethod(); // Logs 'Noooooo!'
 ```
 Данный пример показывает, как подменить метод при помощи декоратора.
 
+Ну и, конечно же, приведу пример кода  без использования декоратора:
+
+```typescript
+
+class X {
+    public myAwesomeMethod() {
+        console.log('Luke, I\'m your father!');
+    }
+}
+
+X.prototype['myAwesomeMethod'] = Y(X.prototype, 'myAwesomeMethod', Object.getOwnPropertyDescriptor(X.prototype, 'myAwesomeMethod') as PropertyDescriptor).value;
+
+new X().myAwesomeMethod(); // Logs 'Noooooo!'
+
+```
+
 ## PropertyDecorator
 Объявление:
 ```typescript
