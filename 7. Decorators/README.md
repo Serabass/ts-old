@@ -15,12 +15,20 @@
 declare type ClassDecorator = <TFunction extends Function>(target: TFunction) => TFunction | void;
 ```
 
+Из названия класса понятно, что этот декоратор можно вешать только на классы. В target будет передана функция-конструктор этого класса
+
 
 ## MethodDecorator
 Объявление:
 ```typescript
 declare type MethodDecorator = <T>(target: Object, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor<T>) => TypedPropertyDescriptor<T> | void;
 ```
+
+Вот здесь чуть-чуть веселее. Этот вид декораторов можно вешать только на методы (присутствие тела метода обязательно, иначе это не метод, а свойство, даже если содержит в себе функцию.). В аргументы приходит следующее:
+
+1. Если метод статический, то в `target` передаётся функция-конструктор, как в примере выше. Если же метод инстансовый, то в `target` прилетит объект-прототип (`Class.prototype`) используемого класса.
+2. Во второй аргумент `propertyKey` прилетит строка с именем поля. Эта строка генерируется во время компиляции кода в JS.
+3. Ну и в третий аргумент `descriptor` будет передан дескриптор поля с указанным методом, полученный путём вызова `Object.getOwnPropertyDescriptor(target, propertyKey)`.
 
 
 ## PropertyDecorator
