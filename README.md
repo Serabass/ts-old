@@ -1,4 +1,4 @@
-# Typescript и его друзья
+# Поговорим о Typescript
 
 **Typescript (далее - TS)** - язык, разработанный Microsoft. Является надстройкой (superset) над Javacript (далее - JS). Почти всегда обычный JS - является валидным TS.
 
