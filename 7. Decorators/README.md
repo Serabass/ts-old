@@ -10,17 +10,29 @@
  * [ParameterDecorator](#parameterdecorator)
 
 ## ClassDecorator
-Объявление: `declare type ClassDecorator = <TFunction extends Function>(target: TFunction) => TFunction | void;`
+Объявление:
+```typescript
+declare type ClassDecorator = <TFunction extends Function>(target: TFunction) => TFunction | void;
+```
 
 
 ## MethodDecorator
-Объявление: `declare type MethodDecorator = <T>(target: Object, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor<T>) => TypedPropertyDescriptor<T> | void;`
+Объявление:
+```typescript
+declare type MethodDecorator = <T>(target: Object, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor<T>) => TypedPropertyDescriptor<T> | void;
+```
 
 
 ## PropertyDecorator
-Объявление: `declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) => void;`
+Объявление:
+```typescript
+declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) => void;
+```
 
 
 ## ParameterDecorator
-Объявление: `declare type ParameterDecorator = (target: Object, propertyKey: string | symbol, parameterIndex: number) => void;`
+Объявление:
+```typescript
+declare type ParameterDecorator = (target: Object, propertyKey: string | symbol, parameterIndex: number) => void;
+```
 
