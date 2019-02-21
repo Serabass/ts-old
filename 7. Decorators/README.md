@@ -51,6 +51,7 @@ declare type ParameterDecorator = (target: Object, propertyKey: string | symbol,
  * PropertyDecorator
  * ClassDecorator
 
+
 TODO: Привести примеры использования декораторов с аналогичными блоками кода без испольнования Д.
 
 TODO: Привести пример ngx-resource
@@ -58,5 +59,3 @@ TODO: Привести пример ngx-resource
 TODO: Рассказать об emitDecoratorMetadata
 
 TODO: Использование декораторов как обычных функций - где и зачем.
-
-TODO: Рассказать об `emitDecoratorMetadata`
