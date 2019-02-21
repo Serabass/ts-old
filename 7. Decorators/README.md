@@ -53,6 +53,27 @@ declare type MethodDecorator = <T>(target: Object, propertyKey: string | symbol,
 2. Во второй аргумент `propertyKey` прилетит строка с именем поля. Эта строка генерируется во время компиляции кода в JS.
 3. Ну и в третий аргумент `descriptor` будет передан дескриптор поля с указанным методом, полученный путём вызова `Object.getOwnPropertyDescriptor(target, propertyKey)`.
 
+### Ехампле:
+```typescript
+
+function Y(target: Object, propertyKey: string | symbol, descriptor: PropertyDescriptor): PropertyDescriptor {
+    descriptor.value = function () {
+        console.log('Noooooo!');
+    };
+
+    return descriptor;
+}
+
+class X {
+    @Y
+    public myAwesomeMethod() {
+        console.log('Luke, I\'m your father!');
+    }
+}
+
+new X().myAwesomeMethod(); // Logs 'Noooooo!'
+```
+Данный пример показывает, как подменить метод при помощи декоратора.
 
 ## PropertyDecorator
 Объявление:
