@@ -25,3 +25,4 @@
 8. Стрелочные функции
 9. Хранилища тайпингов (DefinitelyTyped, @types, etc)
 10. Observable
+11. Symbols
