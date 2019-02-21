@@ -21,4 +21,5 @@ Proxy, Observable, Reflect и им подобные.
 - Promise и магия `async`/`await`
 - Reflect
 - Декораторы
-- 
+- Стрелочные функции
+- Хранилища тайпингов (DefinitelyTyped, @types, etc)
