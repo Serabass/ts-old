@@ -16,6 +16,7 @@ Proxy, Observable, Reflect и им подобные.
   * Generics
   * Абстрактные классы
   * 
+* Conditional Types
 * Proxy
 * Promise и магия `async`/`await`
 * Reflect
