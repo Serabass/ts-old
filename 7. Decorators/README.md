@@ -97,12 +97,15 @@ new X().myAwesomeMethod(); // Logs 'Noooooo!'
 declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) => void;
 ```
 
+`В процессе`
 
 ## ParameterDecorator
 Объявление:
 ```typescript
 declare type ParameterDecorator = (target: Object, propertyKey: string | symbol, parameterIndex: number) => void;
 ```
+
+`В процессе`
 
 ## Использование
 Наверняка, вы уже задались вопросом: *"А как мне вызвать декоратор с какими-либо аргументами?"*. Это правильный вопрос.
