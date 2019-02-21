@@ -36,3 +36,5 @@ declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) 
 declare type ParameterDecorator = (target: Object, propertyKey: string | symbol, parameterIndex: number) => void;
 ```
 
+
+TODO: Привести примеры использования декораторов с аналогичными блоками кода без испольнования Д.
