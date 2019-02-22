@@ -25,7 +25,7 @@
 8. [Стрелочные функции](/8.%20Arrow%20functions/)
 9. Декларации типов
     1. Хранилища тайпингов (DefinitelyTyped, @types, etc)
-10. Observable
+10. !Observable
 11. Symbols
 12. [Template Strings](./12.%20Template%20Strings)
 13. [Что такое Source Maps, зачем они нужны и как они работают?](./13.%20Source%20Maps)
