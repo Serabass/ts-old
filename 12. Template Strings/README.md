@@ -15,13 +15,10 @@
 
 ```typescript
  let a = 1;
- let myTemplateString = `a = ${a}`;
+ let myTemplateString = `a = ${a}`; // "a = 1"
  let myTemplateMultilineString = `
  a = ${a}
  a = ${a}
- a = ${a}
- a = ${a}
- a = ${a}
- `;
+ `; // Ну тут то же самое, только дважды и через строку :)
 ```
 
