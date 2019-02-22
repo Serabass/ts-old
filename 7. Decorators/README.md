@@ -79,6 +79,14 @@ new X().myAwesomeMethod(); // Logs 'Noooooo!'
 
 ```typescript
 
+function Y(target: Object, propertyKey: string | symbol, descriptor: PropertyDescriptor): PropertyDescriptor {
+    descriptor.value = function () {
+        console.log('Noooooo!');
+    };
+
+    return descriptor;
+}
+
 class X {
     public myAwesomeMethod() {
         console.log('Luke, I\'m your father!');
