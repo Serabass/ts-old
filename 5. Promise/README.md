@@ -74,3 +74,5 @@ async function myAsyncAwaitFunction(): Promise<void> {
 `TODO: Добавить пример с циклом`
 
 `TODO: Добавить пример с наследованием от Promise`
+
+`TODO: Добавить пример - как сделать Promise-функцию из асинхронной`
