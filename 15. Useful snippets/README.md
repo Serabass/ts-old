@@ -13,6 +13,12 @@ Object.entries(o).forEach(([key, value]) => {
     console.log(key, value);
 });
 
+// А если, например, нам нужен только value
+
+Object.entries(o).forEach(([, value]) => {
+    console.log(value);
+});
+
 // a 1
 // b 2
 ```
