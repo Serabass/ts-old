@@ -106,6 +106,7 @@ new X().myAwesomeMethod(); // Logs 'Noooooo!'
 declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) => void;
 ```
 
+Поведение этих декораторов во многом схоже с `MethodDecorator`, только в этом случае (почему-то!) не передаётся дескриптор.
 `В процессе`
 
 ## ParameterDecorator
