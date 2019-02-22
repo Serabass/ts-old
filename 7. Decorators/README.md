@@ -88,8 +88,9 @@ class X {
 X.prototype['myAwesomeMethod'] = Y(X.prototype, 'myAwesomeMethod', Object.getOwnPropertyDescriptor(X.prototype, 'myAwesomeMethod') as PropertyDescriptor).value;
 
 new X().myAwesomeMethod(); // Logs 'Noooooo!'
-
 ```
+
+Примерно это и происходит, когда мы вешаем декоратор на метод.
 
 ## PropertyDecorator
 Объявление:
