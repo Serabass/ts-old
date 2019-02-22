@@ -18,7 +18,7 @@
     3. Generics
     4. Абстрактные классы
 3. Conditional Types
-4. Proxy
+4. `let` и `const`
 5. [Promise и магия `async`/`await`](./5.%20Promise)
 6. [Reflect](./6.%20Reflect)
 7. [@декораторы](./7.%20Decorators)
@@ -29,7 +29,7 @@
 11. Symbols
 12. [Template Strings](./12.%20Template%20Strings)
 13. [Что такое Source Maps, зачем они нужны и как они работают?](./13.%20Source%20Maps)
-14. `let` и `const`
+14. Proxy
 15. [Полезные сниппеты](./15.%20Useful%20snippets)
 16. Деструктуризация объектов и массивов
 17. Генераторы
