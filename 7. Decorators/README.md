@@ -98,7 +98,7 @@ X.prototype['myAwesomeMethod'] = Y(X.prototype, 'myAwesomeMethod', Object.getOwn
 new X().myAwesomeMethod(); // Logs 'Noooooo!'
 ```
 
-Примерно это и происходит, когда мы вешаем декоратор на метод.
+Примерно это и происходит, когда мы вешаем декоратор на метод. Только там, скорее всего, не присвоение, а вызов defineProperty с передачей обновлённого дескриптора.
 
 ## PropertyDecorator
 Объявление ([lib.es5.d.ts:1380](https://github.com/Microsoft/TypeScript/blob/v3.3.1/lib/lib.es5.d.ts#L1380)):
