@@ -26,12 +26,13 @@
 9. Декларации типов
     1. Хранилища тайпингов (DefinitelyTyped, @types, etc)
 10. Observable
-11. [Symbols](11.%20Symbols)
+11. Symbols
 12. [Template Strings](./12.%20Template%20Strings)
 13. [Что такое Source Maps, зачем они нужны и как они работают?](./13.%20Source%20Maps)
 14. `let` и `const`
 15. [Полезные сниппеты](./15.%20Useful%20snippets)
 16. Деструктуризация объектов и массивов
+17. Генераторы
 
 
 Предлагайте в `Issues` какую тему ещё можно раскрыть в этом цикле.
