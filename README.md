@@ -22,7 +22,7 @@
 5. [Promise и магия `async`/`await`](./5.%20Promise)
 6. [Reflect](./6.%20Reflect)
 7. [@декораторы](./7.%20Decorators)
-8. Стрелочные функции
+8. [Стрелочные функции](/8.%20Arrow%20functions/)
 9. Декларации типов
     1. Хранилища тайпингов (DefinitelyTyped, @types, etc)
 10. Observable
