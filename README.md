@@ -27,3 +27,5 @@
 10. Observable
 11. Symbols
 12. Template Strings
+
+Предлагайте в `Issues` какую тему ещё можно раскрыть в этом цикле.
