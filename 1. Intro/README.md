@@ -17,4 +17,4 @@
 * На момент написания статьи [в репозитории компилятора](https://github.com/Microsoft/TypeScript) было реализовано почти 65 тысяч тестов.
 
 
-(Недавно слушал [подкаст от разработчика плагина TypeScript для JetBrains](https://medium.com/devschacht/devschacht-61-75ac8fd58960), но вам я его не покажу).
+Недавно слушал [подкаст от разработчика плагина TypeScript для JetBrains](https://medium.com/devschacht/devschacht-61-75ac8fd58960), но вам я его не покажу.
