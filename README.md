@@ -23,7 +23,8 @@
 6. [Reflect](./6.%20Reflect)
 7. [@декораторы](./7.%20Decorators)
 8. Стрелочные функции
-9. Хранилища тайпингов (DefinitelyTyped, @types, etc)
+9. Декларации типов
+    1. Хранилища тайпингов (DefinitelyTyped, @types, etc)
 10. Observable
 11. Symbols
 12. Template Strings
