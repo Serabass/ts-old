@@ -10,7 +10,7 @@
  * [ParameterDecorator](#parameterdecorator)
 
 ## ClassDecorator
-Объявление:
+Объявление [lib.es5.d.ts:1379](https://github.com/Microsoft/TypeScript/blob/v3.3.1/lib/lib.es5.d.ts#L1379):
 ```typescript
 declare type ClassDecorator = <TFunction extends Function>(target: TFunction) => TFunction | void;
 ```
@@ -42,7 +42,7 @@ Y(X);
 ```
 
 ## MethodDecorator
-Объявление:
+Объявление [lib.es5.d.ts:1381](https://github.com/Microsoft/TypeScript/blob/v3.3.1/lib/lib.es5.d.ts#L1381):
 ```typescript
 declare type MethodDecorator = <T>(target: Object, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor<T>) => TypedPropertyDescriptor<T> | void;
 ```
@@ -101,7 +101,7 @@ new X().myAwesomeMethod(); // Logs 'Noooooo!'
 Примерно это и происходит, когда мы вешаем декоратор на метод.
 
 ## PropertyDecorator
-Объявление:
+Объявление [lib.es5.d.ts:1380](https://github.com/Microsoft/TypeScript/blob/v3.3.1/lib/lib.es5.d.ts#L1380):
 ```typescript
 declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) => void;
 ```
@@ -109,7 +109,7 @@ declare type PropertyDecorator = (target: Object, propertyKey: string | symbol) 
 `В процессе`
 
 ## ParameterDecorator
-Объявление:
+Объявление [lib.es5.d.ts:1382](https://github.com/Microsoft/TypeScript/blob/v3.3.1/lib/lib.es5.d.ts#L1382):
 ```typescript
 declare type ParameterDecorator = (target: Object, propertyKey: string | symbol, parameterIndex: number) => void;
 ```
