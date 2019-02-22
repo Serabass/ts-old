@@ -6,6 +6,8 @@
 
 ## Что такое emitDecoratorMetadata и при чём тут Angular?
 
+## design:*
+
 TODO: Рассказать об `emitDecoratorMetadata`
 
 TODO: Рассказать о полифилле `reflect-metadata`
