@@ -37,3 +37,8 @@
 19. 
 
 Предлагайте в `Issues` какую тему ещё можно раскрыть в этом цикле.
+
+Полезные ссылки по теме:
+ * http://typescriptlang.org/ - Официальный сайт
+ * https://github.com/Microsoft/TypeScript - Репозиторий языка на Github
+ * https://t.me/ts_ru - Telegram-канал "Typescript - русскоговорящее сообщество"
