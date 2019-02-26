@@ -2,7 +2,7 @@
 
 Захотелось добавить такой документ, куда я буду складывать интересные, полезные и просто какие угодно блоки кода. Просто чтобы лежали.
 
-## 1. Более лаконичная замена Object.keys(...).forEach
+## 1. Более лаконичная замена Object.keys(...).forEach ( [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries) )
 ```typescript
 let o = {
     a: 1,
